@@ -1,0 +1,25 @@
+{
+  "name": "inco-project3-final",
+  "version": "1.0.0",
+  "description": "Project 3 final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/22Akhi/Final-Project-3.git"
+  },
+  "author": "Baishakhi Ganguli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/22Akhi/Final-Project-3/issues"
+  },
+  "homepage": "https://github.com/22Akhi/Final-Project-3#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
