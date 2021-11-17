@@ -1,12 +1,14 @@
 const express = require('express')
 const data = require('./data')
 const bcrypt = require('bcryptjs')
+const morgan = require('morgan')
 const app = express()
 const PORT = process.env.PORT || 3000
 
 //Route
 
-
+//Logging middleware
+app.use(morgan('dev'))
 
 
 
