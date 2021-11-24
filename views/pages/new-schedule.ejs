@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"
+              content="IE=edge">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <%- include('../partials/header') %>
+        <main>
+            <form method="POST"
+                  action="/schedules">
+                <div>
+                    <label for="userid">User ID</label>
+                    <input id="user_id"
+                           type="type"
+                           name="user_id">
+                </div>
+
+                <div>
+                    <label for="day">Day</label>
+                    <input id="day"
+                           type="text"
+                           name="day">
+                </div>
+
+                <div>
+                    <label for="startat">Start at</label>
+                    <input id="start_at"
+                           type="text"
+                           name="start_at">
+                </div>
+
+                <div>
+                    <label for="endat">End at</label>
+                    <input id="end_at"
+                           type="text"
+                           name="end_at">
+                </div>
+
+                <button type="submit">Add new schedule</button>
+            </form>
+        </main>
+    </body>
+
+</html>

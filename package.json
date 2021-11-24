@@ -4,6 +4,9 @@
   "description": "Project 3 final",
   "main": "index.js",
   "scripts": {
+     "create_db": "psql -U postgres -f sql/create_db.sql",
+    "create_table": "psql -U postgres -d mrcoffee_sheduling_app -f sql/create_table.sql",
+    "seed_table": "psql -U postgres -d mrcoffee_sheduling_app -f sql/seed_table.sql",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +21,7 @@
   "homepage": "https://github.com/22Akhi/Final-Project-3#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "ejs": "^3.1.6",
     "express": "^4.17.1",
     "morgan": "^1.10.0"
   },
